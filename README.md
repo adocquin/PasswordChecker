@@ -2,13 +2,14 @@
 ## Introduction
 Project realized during my international exchange program at Ahlia University. The goal was to write a computer program that implements/simulates specific mutual trust (password validation).  
 This program checks:  
--	If the password is the same as the username.
--	If the password contains at least 10 characters.
--	If the password contains digits.
--	If the password contains uppercase characters.
--	If the password contains lowercase characters.
--	If the password contains special characters.
-Then it tries to bruteforce it and dictionnary attack it with the passwords file passed in parameters.
+- If the password is the same as the username.
+- If the password contains at least 10 characters.
+- If the password contains digits.
+- If the password contains uppercase characters.
+- If the password contains lowercase characters.
+- If the password contains special characters.  
+- If the password can be brute-forced.
+- If the password can be dictionnary attacked.
 
 ## Usage
 `py PasswordChecker.py passwordsFile` Execute the program with the given passwords file.
